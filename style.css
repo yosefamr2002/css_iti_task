@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+    font-family: 'Heebo', sans-serif;
+  }
+.body{
+    background-color: white;
+  }
+
+.nav {
+    padding: 10px;
+    margin: -10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex
+    
+;
+    justify-content: flex-end;
+}
+.nav  button {
+    border: none;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+.nav button:hover{
+    color: #FF6464;
+    cursor: pointer;
+}
+.profile{
+    padding-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.text button{
+    color: white;
+    border: unset;
+    background-color: #FF6464;
+    width: 204px;
+    height: 47px;
+    font-size: 20px;
+}
+.text button:hover{
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.recent{
+    padding-top: 19px;
+    margin-top: 23px;
+    background-color: #EDF7FA;
+    
+}
+.header {
+    padding-left: 14%;
+    padding-right: 14%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.header h3 {
+    color: #21243D;
+    font-size: 22px;
+    font-weight: 300;
+}
+.header button{
+    color: #00A8CC;
+    border: none;
+    font-size: 16px;
+
+}
+.header button:hover{
+    text-decoration: underline;
+
+}
+.posts{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.left,
+.right{
+
+    background-color: black;
+    width: 30%;
+    height: 100px;
+}
